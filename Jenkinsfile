@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git url: 'https://github.com/TU_USUARIO/tu-repo.git', branch: 'main'
+                git url: 'https://github.com/Sergiopp2003/repo1.git
+', branch: 'main'
             }
         }
 
